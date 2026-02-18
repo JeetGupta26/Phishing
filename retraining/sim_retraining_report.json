@@ -1,0 +1,15 @@
+{
+    "vid": "v_failed",
+    "decision": "REJECTED",
+    "reason": "Critical drift",
+    "comparison": {
+        "champion": {
+            "roc_auc": 0.902032922236745,
+            "brier_score": 0.11551940183087876
+        },
+        "challenger": {
+            "roc_auc": 0.8824136503047636,
+            "brier_score": 0.12665546710124526
+        }
+    }
+}

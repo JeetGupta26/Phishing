@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment
+.env
+.python-version
+
+# Logs
+*.log
+monitoring/inference.log
+
+# Model Registry (Local)
+# Usually, production models are pulled from an artifact store (S3/ECR)
+# but for this repo, we include them in the Docker build.
+# We ignore the raw training data to keep the repo clean.
+web-page-phishing.csv
+
+# Artifacts
+v2_artifacts/
+v3_artifacts/
+v4_artifacts/
+
+# OS
+.DS_Store
+Thumbs.db

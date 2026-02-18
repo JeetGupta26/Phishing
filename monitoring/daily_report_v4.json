@@ -1,0 +1,24 @@
+{
+    "drift": {
+        "feature_drifts": {
+            "domain_age": {
+                "psi": 9.209419337938984,
+                "status": "CRITICAL"
+            },
+            "url_length": {
+                "psi": 0.0,
+                "status": "NONE"
+            }
+        },
+        "alert_triggered": true
+    },
+    "pred": {
+        "mean_shift": -0.014791317187454689,
+        "anomaly_detected": false,
+        "dist": {
+            "low": 0.36,
+            "high": 0.31
+        }
+    },
+    "version": "v_20260219_052014"
+}
