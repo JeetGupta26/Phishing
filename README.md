@@ -1,4 +1,4 @@
-# Phishing Detection Platform 2.0
+# Phishing Detection Platform
 
 A production-grade, multi-signal phishing detection system featuring automated retraining, drift monitoring, and a calibrated inference microservice.
 
